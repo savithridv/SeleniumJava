@@ -11,5 +11,6 @@ public class App {
         System.out.println("Hello World!");
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.google.com");
+        System.out.println("Current Url:"+driver.getCurrentUrl());
     }
 }
